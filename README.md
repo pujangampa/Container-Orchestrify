@@ -27,8 +27,8 @@ Follow these steps to set up and deploy the Flask website using Jenkins and Dock
 
 ## Configuring Jenkins Job
 - Create a new Jenkins job.
+- Pull the git repo from Github
 - Configure the job to use the pipeline script from the /jenkins directory in this repository.
-- Set up the necessary environment variables such as DOCKER_HUB_USERNAME and others as needed.
 
 ## Docker Configuration
 - Make sure Docker is installed on the Jenkins server.
