@@ -38,3 +38,7 @@ Follow these steps to set up and deploy the Flask website using Jenkins and Dock
 - Trigger the Jenkins job manually with Poll SCM for automatic builds on code changes.
 - Jenkins will build the Docker image, run tests, and push the image to Docker Hub.
 - Access the Flask website using the published Docker image with respective port number.
+
+## To use the docker image
+[Click Here](https://hub.docker.com/repository/docker/pujangampa/webapp/general)
+
