@@ -4,9 +4,9 @@ The project is designed to automate the build, testing, and deployment processes
 ## Project Structure
 
 * /app: Contains the Flask application source code.
-* jenkins.sh: Jenkins pipeline script and configurations for docker.
-Dockerfile: Defines the Docker image configuration.
-requirements.txt: Lists the Python dependencies for the Flask application.
+* /jenkins.sh: Jenkins pipeline script and configurations for docker.
+* Dockerfile: Defines the Docker image configuration.
+* requirements.txt: Lists the Python dependencies for the Flask application.
 
 
 **Prerequisites**
