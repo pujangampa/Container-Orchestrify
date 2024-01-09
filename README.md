@@ -9,26 +9,26 @@ The project is designed to automate the build, testing, and deployment processes
 * requirements.txt: Lists the Python dependencies for the Flask application.
 
 
-**Prerequisites**
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-Jenkins: Install Jenkins
-Docker: Install Docker
-Docker Hub account: Docker Hub for pushing the Docker image.
+- Jenkins: Install Jenkins
+- Docker: Install Docker
+- Docker Hub account: Docker Hub for pushing the Docker image.
 
 ## Getting Started
 Follow these steps to set up and deploy the Flask website using Jenkins and Docker.
 
 ## Setting Up Jenkins
-Install Jenkins on your server.
-Configure Jenkins with the necessary plugins (Docker, Pipeline).
-Ensure Jenkins has the necessary permissions to access your version control system.
+- Install Jenkins on your server.
+- Configure Jenkins with the necessary plugins (Docker, Pipeline).
+- Ensure Jenkins has the necessary permissions to access your version control system.
 
 ## Configuring Jenkins Job
-Create a new Jenkins job.
-Configure the job to use the pipeline script from the /jenkins directory in this repository.
-Set up the necessary environment variables such as DOCKER_HUB_USERNAME and others as needed.
+- Create a new Jenkins job.
+- Configure the job to use the pipeline script from the /jenkins directory in this repository.
+- Set up the necessary environment variables such as DOCKER_HUB_USERNAME and others as needed.
 
 ## Docker Configuration
 Make sure Docker is installed on the Jenkins server.
