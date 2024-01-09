@@ -1,7 +1,7 @@
 # Container-Orchestrify
 The project is designed to automate the build, testing, and deployment processes using Jenkins. It leverages Docker for containerization, allowing for easy deployment across different environments. The Flask application serves as a static website.
 
-**Project Structure**
+## Project Structure
 
 /app: Contains the Flask application source code.
 jenkins.sh: Jenkins pipeline script and configurations for docker.
