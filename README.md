@@ -3,6 +3,7 @@ Implemented CI/CD pipeline using Jenkins and Docker for a static Flask website. 
 
 ## Project Structure
 
+* Terraform/main.tf : To create the EC2 instance
 * /app: Contains the Flask application source code.
 * docker-script: Jenkins pipeline script and configurations for docker.
 * Dockerfile: Defines the Docker image configuration.
