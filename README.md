@@ -3,7 +3,8 @@ Implemented CI/CD pipeline using Jenkins and Docker for a static Flask website. 
 
 ## Workflow
 
-![image](https://github.com/pujangampa/Container-Orchestrify/assets/130989697/a5a1a3e6-849d-48a4-b4fc-ae3371acd148)
+![image](https://github.com/pujangampa/Container-Orchestrify/assets/130989697/e28a8ed8-9a32-465b-90b2-c5f2bd18c44e)
+
 
 
 ## Project Structure
