@@ -1,7 +1,7 @@
 # Container-Orchestrify
 Implemented CI/CD pipeline using Jenkins and Docker for a static Flask website. Automated the build, test and deployment workflows through jenkins. Additionally, added build triggering features efficienctly. It leverages Docker for containerization and automated Docker image build, run, and efficient push to Docker Hub via jenkins. Strengthened and contributed an efficient, secure, automated CI/CD workflow and optimized features enhancing overall user experience.
 
-# Workflow
+## Workflow
 
 ![image](https://github.com/pujangampa/Container-Orchestrify/assets/130989697/a5a1a3e6-849d-48a4-b4fc-ae3371acd148)
 
