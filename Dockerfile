@@ -7,6 +7,6 @@ RUN pip install Flask
 COPY app.py .
 COPY templates/index.html ./templates/
 
-EXPOSE 5000
+EXPOSE 7000
 
 CMD ["python", "app.py"]
