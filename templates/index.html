@@ -1,29 +1,15 @@
-<html>
-  <head>
-    <style type="text/css">
-      body {
-        background: midnightblue;
-        color: rgba(255, 255, 255, 0.233);
-      }
-      div.container {
-        max-width: 500px;
-        margin: 100px auto;
-        border: 20px solid white;
-        padding: 10px;
-        text-align: center;
-      }
-      h4 {
-        text-transform: uppercase;
-        color: Green;
-      }
-    </style>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Flask App</title>
+</head>
+<body>
     <div class="container">
-      <h4>Cat Gif of the day</h4>
-      <img src="{{url}}" />
-      <p><small>Image Courtesy: <a href="http://www.tenor.com">Tenor</a></small></p>
-      <p><small>Refresh the page for a new cat gif :)</small></p>
+        <h1>CI/CD WORKFLOW</h1>
+        <img src="{{ url_for('static', filename='proj.png') }}" alt="Description of your image">
     </div>
-  </body>
+</body>
 </html>
