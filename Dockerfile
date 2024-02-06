@@ -2,11 +2,10 @@ FROM python:3.12.1
 
 WORKDIR /app
 
+COPY . /app
+
 RUN pip install Flask
 
-COPY app.py .
-COPY templates/index.html ./templates/
+EXPOSE 6001
 
-EXPOSE 7000
-
-CMD ["python", "app.py"]
+CMD ["python", "app.py"]  # Replace "app.py" with your actual Flask application file
