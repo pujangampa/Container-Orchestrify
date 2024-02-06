@@ -1,0 +1,12 @@
+# Build Docker image
+docker build -t pujangampa/webdemo:latest .
+
+# Stop and remove existing container
+docker stop webdemo || true
+docker rm webdemo || true
+
+# Run Docker container
+docker run -d -p 6001:6001 --name webdemo pujangampa/webdemo:latest
+
+# Push Docker image to Docker Hub
+docker push pujangampa/webdemo:latest
