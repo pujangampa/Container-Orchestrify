@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif; /* Default font for the body */
+    margin: 0;
+    padding: 0;
+    background-color: #eef5f1; /* Green background color for the entire body */
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px; /* Add padding for better visual appearance */
+}
+
+h1 {
+    font-family: 'Times New Roman', serif; /* Use Arial for h1 */
+    font-weight: bold; /* Make the text in h1 bold */
+    font-size: 35px;
+    color: #302b2b; /* Blue color for the heading */
+}
+
+
+img {
+    max-width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Add a border to the image */
+    border-radius: 15px; /* Optional: Rounded corners for the image */
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
