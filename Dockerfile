@@ -6,6 +6,6 @@ COPY . /app
 
 RUN pip install Flask
 
-EXPOSE 6001
+EXPOSE 6005
 
 CMD ["python", "app.py"]  # Replace "app.py" with your actual Flask application file
