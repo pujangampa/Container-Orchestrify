@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: democont-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: democont
+  template:
+    metadata:
+      labels:
+        app: democont
+    spec:
+      containers:
+      - name: democont-container
+        image: pujangampa/democont:latest
+        ports:
+        - containerPort: 6005
